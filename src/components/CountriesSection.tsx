@@ -12,11 +12,12 @@ export default async function CountriesSection() {
                 Países populares
             </h2>
             
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {firstFive.map((country, index) => (
-                        <CountryCard key={index} country={country} />
-                    ))}
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {firstFive.map((country, index) => (
+                    <CountryCard key={index} country={country} />
+                ))}
+            </div>
+            
         </section>
     );
 }

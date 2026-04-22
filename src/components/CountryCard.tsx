@@ -30,7 +30,7 @@ export default function CountryCard({ country }: Props) {
           <span className="font-medium text-gray-700">Moeda:</span>{" "}
           {Object.values(country.currencies || {})[0]?.name || "N/A"}
         </p>
-      </div>
+       </div>
 
     </div>
   );
